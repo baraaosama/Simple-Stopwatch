@@ -3,12 +3,12 @@ window.onload = function () {
     let seconds = 00;
     let tens = 00;
     let mins = 00;
-    let start = document.querySelector(".start");
-    let stop = document.querySelector(".stop");
-    let reset = document.querySelector(".reset");
-    let appendTens = document.querySelector(".tens");
-    let appendSecs = document.querySelector(".secs");
-    let appendMins = document.querySelector(".mins");
+    const start = document.querySelector(".start");
+    const stop = document.querySelector(".stop");
+    const reset = document.querySelector(".reset");
+    const appendTens = document.querySelector(".tens");
+    const appendSecs = document.querySelector(".secs");
+    const appendMins = document.querySelector(".mins");
     let interval;
     start.onclick = function () {
         clearInterval(interval);
